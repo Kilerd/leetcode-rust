@@ -1,0 +1,66 @@
+[[package]]
+name = "big-countries"
+version = "0.1.0"
+
+[[package]]
+name = "design-hashset"
+version = "0.1.0"
+
+[[package]]
+name = "di-string-match"
+version = "0.1.0"
+
+[[package]]
+name = "flipping-an-image"
+version = "0.1.0"
+
+[[package]]
+name = "hamming-distance"
+version = "0.1.0"
+
+[[package]]
+name = "jewels-and-stones"
+version = "0.1.0"
+
+[[package]]
+name = "leetcode"
+version = "0.1.0"
+dependencies = [
+ "big-countries 0.1.0",
+ "design-hashset 0.1.0",
+ "di-string-match 0.1.0",
+ "flipping-an-image 0.1.0",
+ "hamming-distance 0.1.0",
+ "jewels-and-stones 0.1.0",
+ "nim-game 0.1.0",
+ "robot-return-to-origin 0.1.0",
+ "sort-array-by-parity 0.1.0",
+ "to-lower-case 0.1.0",
+ "unique-email-addresses 0.1.0",
+ "unique-morse-code-words 0.1.0",
+]
+
+[[package]]
+name = "nim-game"
+version = "0.1.0"
+
+[[package]]
+name = "robot-return-to-origin"
+version = "0.1.0"
+
+[[package]]
+name = "sort-array-by-parity"
+version = "0.1.0"
+
+[[package]]
+name = "to-lower-case"
+version = "0.1.0"
+
+[[package]]
+name = "unique-email-addresses"
+version = "0.1.0"
+
+[[package]]
+name = "unique-morse-code-words"
+version = "0.1.0"
+
