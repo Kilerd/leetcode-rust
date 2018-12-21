@@ -10,7 +10,6 @@ nim-game = {path="nim-game"}
 unique-email-addresses = {path="unique-email-addresses"}
 to-lower-case = {path="to-lower-case"}
 unique-morse-code-words = {path="unique-morse-code-words"}
-design-hashset = {path="design-hashset"}
 sort-array-by-parity = {path = "sort-array-by-parity"}
 robot-return-to-origin = {path="robot-return-to-origin"}
 hamming-distance = {path="hamming-distance"}

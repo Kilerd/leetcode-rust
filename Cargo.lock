@@ -3,10 +3,6 @@ name = "big-countries"
 version = "0.1.0"
 
 [[package]]
-name = "design-hashset"
-version = "0.1.0"
-
-[[package]]
 name = "di-string-match"
 version = "0.1.0"
 
@@ -27,7 +23,6 @@ name = "leetcode"
 version = "0.1.0"
 dependencies = [
  "big-countries 0.1.0",
- "design-hashset 0.1.0",
  "di-string-match 0.1.0",
  "flipping-an-image 0.1.0",
  "hamming-distance 0.1.0",
