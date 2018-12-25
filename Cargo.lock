@@ -27,6 +27,7 @@ dependencies = [
  "flipping-an-image 0.1.0",
  "hamming-distance 0.1.0",
  "jewels-and-stones 0.1.0",
+ "merge-two-binary-trees 0.1.0",
  "nim-game 0.1.0",
  "robot-return-to-origin 0.1.0",
  "sort-array-by-parity 0.1.0",
@@ -34,6 +35,10 @@ dependencies = [
  "unique-email-addresses 0.1.0",
  "unique-morse-code-words 0.1.0",
 ]
+
+[[package]]
+name = "merge-two-binary-trees"
+version = "0.1.0"
 
 [[package]]
 name = "nim-game"
