@@ -34,6 +34,7 @@ dependencies = [
  "jewels-and-stones 0.1.0",
  "merge-two-binary-trees 0.1.0",
  "nim-game 0.1.0",
+ "number-of-recent-calls 0.1.0",
  "peak-index-in-a-mountain-array 0.1.0",
  "robot-return-to-origin 0.1.0",
  "self-dividing-numbers 0.1.0",
@@ -50,6 +51,10 @@ version = "0.1.0"
 
 [[package]]
 name = "nim-game"
+version = "0.1.0"
+
+[[package]]
+name = "number-of-recent-calls"
 version = "0.1.0"
 
 [[package]]

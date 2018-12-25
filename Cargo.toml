@@ -21,5 +21,6 @@ two-sum = {path="two-sum"}
 peak-index-in-a-mountain-array = {path="peak-index-in-a-mountain-array"}
 self-dividing-numbers = {path="self-dividing-numbers"}
 array-partition-i = {path="array-partition-i"}
+number-of-recent-calls = {path="number-of-recent-calls"}
 
 [workspace]
