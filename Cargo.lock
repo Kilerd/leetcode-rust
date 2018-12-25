@@ -1,4 +1,8 @@
 [[package]]
+name = "array-partition-i"
+version = "0.1.0"
+
+[[package]]
 name = "big-countries"
 version = "0.1.0"
 
@@ -22,6 +26,7 @@ version = "0.1.0"
 name = "leetcode"
 version = "0.1.0"
 dependencies = [
+ "array-partition-i 0.1.0",
  "big-countries 0.1.0",
  "di-string-match 0.1.0",
  "flipping-an-image 0.1.0",
