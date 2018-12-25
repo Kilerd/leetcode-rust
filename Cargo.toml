@@ -17,5 +17,6 @@ di-string-match = {path="di-string-match"}
 big-countries = {path="big-countries"}
 flipping-an-image = {path="flipping-an-image"}
 merge-two-binary-trees = {path="merge-two-binary-trees"}
+two-sum = {path="two-sum"}
 
 [workspace]

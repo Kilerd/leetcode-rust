@@ -32,6 +32,7 @@ dependencies = [
  "robot-return-to-origin 0.1.0",
  "sort-array-by-parity 0.1.0",
  "to-lower-case 0.1.0",
+ "two-sum 0.1.0",
  "unique-email-addresses 0.1.0",
  "unique-morse-code-words 0.1.0",
 ]
@@ -54,6 +55,10 @@ version = "0.1.0"
 
 [[package]]
 name = "to-lower-case"
+version = "0.1.0"
+
+[[package]]
+name = "two-sum"
 version = "0.1.0"
 
 [[package]]
