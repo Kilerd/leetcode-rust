@@ -31,6 +31,7 @@ dependencies = [
  "nim-game 0.1.0",
  "peak-index-in-a-mountain-array 0.1.0",
  "robot-return-to-origin 0.1.0",
+ "self-dividing-numbers 0.1.0",
  "sort-array-by-parity 0.1.0",
  "to-lower-case 0.1.0",
  "two-sum 0.1.0",
@@ -52,6 +53,10 @@ version = "0.1.0"
 
 [[package]]
 name = "robot-return-to-origin"
+version = "0.1.0"
+
+[[package]]
+name = "self-dividing-numbers"
 version = "0.1.0"
 
 [[package]]
