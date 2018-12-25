@@ -22,5 +22,7 @@ peak-index-in-a-mountain-array = {path="peak-index-in-a-mountain-array"}
 self-dividing-numbers = {path="self-dividing-numbers"}
 array-partition-i = {path="array-partition-i"}
 number-of-recent-calls = {path="number-of-recent-calls"}
+sort-array-by-parity-ii = {path="sort-array-by-parity-ii"}
+
 
 [workspace]

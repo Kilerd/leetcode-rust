@@ -39,6 +39,7 @@ dependencies = [
  "robot-return-to-origin 0.1.0",
  "self-dividing-numbers 0.1.0",
  "sort-array-by-parity 0.1.0",
+ "sort-array-by-parity-ii 0.1.0",
  "to-lower-case 0.1.0",
  "two-sum 0.1.0",
  "unique-email-addresses 0.1.0",
@@ -71,6 +72,10 @@ version = "0.1.0"
 
 [[package]]
 name = "sort-array-by-parity"
+version = "0.1.0"
+
+[[package]]
+name = "sort-array-by-parity-ii"
 version = "0.1.0"
 
 [[package]]
