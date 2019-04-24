@@ -4,25 +4,4 @@ version = "0.1.0"
 authors = ["Kilerd Chan <blove694@gmail.com>"]
 edition = "2018"
 
-[dependencies]
-jewels-and-stones = {path="jewels-and-stones"}
-nim-game = {path="nim-game"}
-unique-email-addresses = {path="unique-email-addresses"}
-to-lower-case = {path="to-lower-case"}
-unique-morse-code-words = {path="unique-morse-code-words"}
-sort-array-by-parity = {path = "sort-array-by-parity"}
-robot-return-to-origin = {path="robot-return-to-origin"}
-hamming-distance = {path="hamming-distance"}
-di-string-match = {path="di-string-match"}
-big-countries = {path="big-countries"}
-flipping-an-image = {path="flipping-an-image"}
-merge-two-binary-trees = {path="merge-two-binary-trees"}
-two-sum = {path="two-sum"}
-peak-index-in-a-mountain-array = {path="peak-index-in-a-mountain-array"}
-self-dividing-numbers = {path="self-dividing-numbers"}
-array-partition-i = {path="array-partition-i"}
-number-of-recent-calls = {path="number-of-recent-calls"}
-sort-array-by-parity-ii = {path="sort-array-by-parity-ii"}
-
-
 [workspace]
