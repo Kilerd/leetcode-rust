@@ -1,10 +1,13 @@
 language: python
 python:
-  - "3.6"
+- '3.6'
 script:
-  - python generator/readme_generator.py
-  - git config user.name "Kilerd Chan"
-  - git config user.email "blove694@gmail.com"
-  - git add readme.md
-  - git commit --message "Auto update readme by generator with travis build :$TRAVIS_BUILD_NUMBER"
-  - git push https://${GITHUB_TOKEN}@github.com/Kilerd/leetcode-rust.git master
+- python generator/readme_generator.py
+- git config user.name "Kilerd Chan"
+- git config user.email "blove694@gmail.com"
+- git add readme.md
+- git commit --message "Auto update readme by generator with travis build :$TRAVIS_BUILD_NUMBER"
+- git push https://${GITHUB_TOKEN}@github.com/Kilerd/leetcode-rust.git master
+env:
+  global:
+    secure: dATf13udclH0J5EeccssW8QaR5IpdG7Sdj8k4xMwHAw333ZlkLk0YGpyfMtf8ejkfIWSldht2d2IEJMAQuf7twlbxiykYmBcMCKq3esljkfYF6mpoXLyarPJkJ0tO6bUygG92BUyQiw/a/v2duQgPkv+5t0zeWo7jUqga5OANX5GANVuHjJGCMdVDmmlra/79ub0gdzPXR/Y6g31pt9NyF6sBlLBo9dpFWOg1aFIJeF8SYgTnRC4Ys9TOCKuRgoga2dlcjg4AIzuU3U2y1M0uCsZSUErZJYZix8L27+eYVs+KfqpQHxtIl2zRvvPJG49hI/hFpYw/2UDFe5bVpkBCja7McV+oi4cnl6Ttm4PNzJ0JZpKpGq8aQ7Czn4L4ZJi3UiBIEIXK3Dbstlv3sTY5kOHZPRROBS+oV9XIQ+2aE3QQyA1qp6LZOw9fku7mzn65o8kjtXd/Xk+5qXOiWfD5KccyrvhRf0DVJJM+RYJz4y8zNeOzOCcG8J3faFaeYmLZJj20Tu4AOjDr7KRoCFXDFgzu3DW9j6hbHI51XTzt0u6IMC68isM62PQqKF3vT9717pdVdKTevpw8j0zWVte8pzTG3H15ItImFF+08VFnhvhlQQd5VUpSK7glswEZK2CKC9CSORcCDQIW7Wd3Gg0zzp76HUEo6SRPc0Bh9s09GE=
