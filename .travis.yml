@@ -7,4 +7,4 @@ script:
   - git config user.email "blove694@gmail.com"
   - git add readme.md
   - git commit --message "Auto update readme by generator with travis build :$TRAVIS_BUILD_NUMBER"
-  - git push origin master
+  - git push https://${GITHUB_TOKEN}@github.com/MVSE-outreach/resources.git master
