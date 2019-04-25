@@ -2,6 +2,7 @@ language: python
 python:
 - '3.6'
 script:
+- git checkout master
 - python generator/readme_generator.py
 - git config user.name "Kilerd Chan"
 - git config user.email "blove694@gmail.com"
