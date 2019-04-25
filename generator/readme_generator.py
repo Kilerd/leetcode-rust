@@ -74,7 +74,7 @@ now = datetime.now()
 with open("./generator/readme.template") as file:
     content = file.read()
 
-    content = content.replace(r"{time}", str(now))
+    content = content.replace(r"{time}", now.strftime("%Y-%m-%d %H:%M:%S"))
     content = content.replace(r"{problems}", table(problems))
 
     with open("./readme.md", mode="w") as readme:
