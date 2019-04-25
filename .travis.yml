@@ -10,6 +10,3 @@ script:
 - git status
 - git log --oneline
 - git push https://${GITHUB_TOKEN}@github.com/Kilerd/leetcode-rust.git master
-env:
-  global:
-    secure: "xLUERgkZHc/oX9ezJ8O9jo4dhFZf5AbC7J/W3htlhA0VA+NlUam5q+w2Db2E1HEZZqAH/JZutxv2Jxh3LMEKoIuNjxXvU3c1yTNPQj9sDU2UIN4j81xdBmlazrsMHXZdfOp58X3AUduqCTX5dj2o/E1fLoJsR3qWDKqbGKgy+NuGAU0WBvl4e6Jk67M/Zhj1u0/Pc/nBkBgHEnCl8/AYF/9nLbK0eusrdAJkOIh+oDtHba/ANKwCfoQtyntelhgulJPoOdpwZqTDmL+9gxkrUwbO+ROPirqxoEilg0SghTFVgpfaC5OI2CaDc3hhTAC0rc41tC0MHfvv4jnWpSSLJQTbbVKJMygz3hjN8vlzyBK6SaU9/3soljLVpuJg/1dgZjWuFQsOF6rpkW4MGmhCxTYPXF9m/U66T4xjRJpD+3y3FlLdefQiNZpC6tT/Ee7RcvfDenG0kMepwzv4hZnqyi4eCZR6kvM4XJY08XGuiTnvVYLPX17HS0FD1Z+uE6t8v0e68wOlFPWWL9/zlMIA+e00pfAkEu4Kj5bx3g9ynz3v+30xkXXs9fP73ilUkL6gc3U/kChseUrrGUJiUUsDvQcOLwlCfQ0+3hzS2/aeIeNZCVRycIMIJZDQNDnLZPikYxodRGCZTfUBladx1KBk2zRCtSupDPJhsdNtUf4QfMk="
