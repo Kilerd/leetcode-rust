@@ -1,6 +1,6 @@
-/// @number 771
-/// @title Jewels and Stones
-/// @url https://leetcode.com/problems/jewels-and-stones
+/// @number 561
+/// @title Array Partition I
+/// @url https://leetcode.com/problems/array-partition-i
 /// @difficulty easy
 
 struct Solution;
