@@ -20,4 +20,5 @@ mod array_partition_i;
 mod number_of_recent_calls;
 mod sort_array_by_parity_ii;
 mod longest_substring_without_repeating_characters;
+mod sort_colors;
 
