@@ -2,13 +2,15 @@
 
 readme is updated by readme generator automatically and periodically.
 
-last updated at: 2019-04-25 06:46:55.039766
+last updated at: 2019-04-26 06:40:54
 
 | ID   | Title                           | Leetcode | Difficulty |
 | ---- | --------------------------------|------- | ---------- |
 | 1 | [Two Sum](blob/master/src/two_sum.rs) |[https://leetcode.com/problems/two-sum](https://leetcode.com/problems/two-sum)| EASY |
 | 2 | [Add Two Numbers](blob/master/src/add_two_number.rs) |[https://leetcode.com/problems/add-two-numbers](https://leetcode.com/problems/add-two-numbers)| MEDIUM |
+| 3 | [Longest Substring Without Repeating Characters](blob/master/src/longest_substring_without_repeating_characters.rs) |[https://leetcode.com/problems/longest-substring-without-repeating-characters/](https://leetcode.com/problems/longest-substring-without-repeating-characters/)| MEDIUM |
 | 6 | [ZigZag Conversion](blob/master/src/zigzag_conversion.rs) |[https://leetcode.com/problems/zigzag-conversion](https://leetcode.com/problems/zigzag-conversion)| MEDIUM |
+| 75 | [Sort Colors](blob/master/src/sort_colors.rs) |[https://leetcode.com/problems/sort-colors](https://leetcode.com/problems/sort-colors)| MEDIUM |
 | 292 | [Nim Game](blob/master/src/nim_game.rs) |[https://leetcode.com/problems/nim-game](https://leetcode.com/problems/nim-game)| EASY |
 | 461 | [Hamming Distance](blob/master/src/hamming_distance.rs) |[https://leetcode.com/problems/hamming-distance](https://leetcode.com/problems/hamming-distance)| EASY |
 | 561 | [Array Partition I](blob/master/src/array_partition_i.rs) |[https://leetcode.com/problems/array-partition-i](https://leetcode.com/problems/array-partition-i)| EASY |
