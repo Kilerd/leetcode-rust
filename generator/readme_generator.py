@@ -21,7 +21,7 @@ class Problem:
         self.title = title
         self.url = url
         self.difficulty = difficulty.upper()
-        self.src = f"blob/master/{src}"
+        self.src = f"{src}"
     
     def __repr__(self):
         return f"<Problem number={self.number} title={self.title} url={self.url} diff={self.difficulty} src={self.src}>"
