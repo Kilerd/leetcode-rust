@@ -2,7 +2,7 @@
 
 readme is updated by readme generator automatically and periodically.
 
-last updated at: 2019-04-26 06:52:55
+last updated at: 2019-04-27 06:41:14
 
 | ID   | Title                           | Leetcode | Difficulty |
 | ---- | --------------------------------|------- | ---------- |
@@ -10,6 +10,8 @@ last updated at: 2019-04-26 06:52:55
 | 2 | [Add Two Numbers](src/add_two_number.rs) |[https://leetcode.com/problems/add-two-numbers](https://leetcode.com/problems/add-two-numbers)| MEDIUM |
 | 3 | [Longest Substring Without Repeating Characters](src/longest_substring_without_repeating_characters.rs) |[https://leetcode.com/problems/longest-substring-without-repeating-characters/](https://leetcode.com/problems/longest-substring-without-repeating-characters/)| MEDIUM |
 | 6 | [ZigZag Conversion](src/zigzag_conversion.rs) |[https://leetcode.com/problems/zigzag-conversion](https://leetcode.com/problems/zigzag-conversion)| MEDIUM |
+| 7 | [Reverse Integer](src/reverse_integer.rs) |[https://leetcode.com/problems/reverse-integer/](https://leetcode.com/problems/reverse-integer/)| EASY |
+| 12 | [Integer to Roman](src/integer_to_roman.rs) |[https://leetcode.com/problems/integer-to-roman](https://leetcode.com/problems/integer-to-roman)| MEDIUM |
 | 75 | [Sort Colors](src/sort_colors.rs) |[https://leetcode.com/problems/sort-colors](https://leetcode.com/problems/sort-colors)| MEDIUM |
 | 292 | [Nim Game](src/nim_game.rs) |[https://leetcode.com/problems/nim-game](https://leetcode.com/problems/nim-game)| EASY |
 | 461 | [Hamming Distance](src/hamming_distance.rs) |[https://leetcode.com/problems/hamming-distance](https://leetcode.com/problems/hamming-distance)| EASY |
