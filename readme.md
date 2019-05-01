@@ -2,7 +2,7 @@
 
 readme is updated by readme generator automatically and periodically.
 
-last updated at: 2019-05-01 06:44:06
+last updated at: 2019-05-01 06:46:54
 
 | ID   | Title                           | Leetcode | Difficulty |
 | ---- | --------------------------------|------- | ---------- |
