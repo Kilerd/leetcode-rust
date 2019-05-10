@@ -4,8 +4,8 @@ python:
 script:
 - git checkout master
 - python generator/readme_generator.py
-- git config user.name "Kilerd Chan"
-- git config user.email "blove694@gmail.com"
+- git config user.name "Travis Bot"
+- git config user.email "bot@travis-ci.org"
 - git add readme.md
 - git commit --message "Auto update readme.md by generator with travis build :$TRAVIS_BUILD_NUMBER"
 - git push https://${GITHUB_TOKEN}@github.com/Kilerd/leetcode-rust.git master
