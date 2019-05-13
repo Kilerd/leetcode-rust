@@ -23,3 +23,4 @@ mod longest_substring_without_repeating_characters;
 mod sort_colors;
 mod reverse_integer;
 mod integer_to_roman;
+mod string_to_integer_atoi;
