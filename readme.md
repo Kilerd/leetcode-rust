@@ -2,7 +2,7 @@
 
 readme is updated by readme generator automatically and periodically.
 
-last updated at: 2019-05-12 06:53:57
+last updated at: 2019-05-13 06:48:18
 
 | ID   | Title                           | Leetcode | Difficulty |
 | ---- | --------------------------------|------- | ---------- |
@@ -11,6 +11,9 @@ last updated at: 2019-05-12 06:53:57
 | 3 | [Longest Substring Without Repeating Characters](src/longest_substring_without_repeating_characters.rs) |[https://leetcode.com/problems/longest-substring-without-repeating-characters/](https://leetcode.com/problems/longest-substring-without-repeating-characters/)| MEDIUM |
 | 6 | [ZigZag Conversion](src/zigzag_conversion.rs) |[https://leetcode.com/problems/zigzag-conversion](https://leetcode.com/problems/zigzag-conversion)| MEDIUM |
 | 7 | [Reverse Integer](src/reverse_integer.rs) |[https://leetcode.com/problems/reverse-integer/](https://leetcode.com/problems/reverse-integer/)| EASY |
+| 8 | [String to Integer (atoi)](src/string_to_integer_atoi.rs) |[https://leetcode.com/problems/string-to-integer-atoi/](https://leetcode.com/problems/string-to-integer-atoi/)| MEDIUM |
+| 9 | [Palindrome Number](src/palindrome_number.rs) |[https://leetcode.com/problems/palindrome-number/](https://leetcode.com/problems/palindrome-number/)| EASY |
+| 11 | [Container With Most Water](src/container_with_most_water.rs) |[https://leetcode.com/problems/container-with-most-water/](https://leetcode.com/problems/container-with-most-water/)| MEDIUM |
 | 12 | [Integer to Roman](src/integer_to_roman.rs) |[https://leetcode.com/problems/integer-to-roman](https://leetcode.com/problems/integer-to-roman)| MEDIUM |
 | 75 | [Sort Colors](src/sort_colors.rs) |[https://leetcode.com/problems/sort-colors](https://leetcode.com/problems/sort-colors)| MEDIUM |
 | 292 | [Nim Game](src/nim_game.rs) |[https://leetcode.com/problems/nim-game](https://leetcode.com/problems/nim-game)| EASY |
