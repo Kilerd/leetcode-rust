@@ -2,7 +2,7 @@
 
 readme is updated by readme generator automatically and periodically.
 
-last updated at: 2019-05-13 06:55:23
+last updated at: 2019-05-14 06:48:37
 
 | ID   | Title                           | Leetcode | Difficulty |
 | ---- | --------------------------------|------- | ---------- |
@@ -15,6 +15,9 @@ last updated at: 2019-05-13 06:55:23
 | 9 | [Palindrome Number](src/palindrome_number.rs) |[https://leetcode.com/problems/palindrome-number/](https://leetcode.com/problems/palindrome-number/)| EASY |
 | 11 | [Container With Most Water](src/container_with_most_water.rs) |[https://leetcode.com/problems/container-with-most-water/](https://leetcode.com/problems/container-with-most-water/)| MEDIUM |
 | 12 | [Integer to Roman](src/integer_to_roman.rs) |[https://leetcode.com/problems/integer-to-roman](https://leetcode.com/problems/integer-to-roman)| MEDIUM |
+| 15 | [3Sum](src/three_sum.rs) |[https://leetcode.com/problems/3sum/](https://leetcode.com/problems/3sum/)| MEDIUM |
+| 16 | [3Sum Closest](src/three_sum_closest.rs) |[https://leetcode.com/problems/3sum-closest/](https://leetcode.com/problems/3sum-closest/)| MEDIUM |
+| 17 | [Letter Combinations of a Phone Number](src/letter_combinations_of_a_phone_number.rs) |[https://leetcode.com/problems/letter-combinations-of-a-phone-number/](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)| MEDIUM |
 | 75 | [Sort Colors](src/sort_colors.rs) |[https://leetcode.com/problems/sort-colors](https://leetcode.com/problems/sort-colors)| MEDIUM |
 | 292 | [Nim Game](src/nim_game.rs) |[https://leetcode.com/problems/nim-game](https://leetcode.com/problems/nim-game)| EASY |
 | 461 | [Hamming Distance](src/hamming_distance.rs) |[https://leetcode.com/problems/hamming-distance](https://leetcode.com/problems/hamming-distance)| EASY |
