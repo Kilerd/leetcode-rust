@@ -30,3 +30,4 @@ mod three_sum;
 mod three_sum_closest;
 mod letter_combinations_of_a_phone_number;
 mod valid_parentheses;
+mod remove_duplicates_from_sorted_array;
