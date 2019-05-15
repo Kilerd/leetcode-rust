@@ -2,6 +2,7 @@ from pathlib import Path
 from enum import Enum
 from codecs import open
 from datetime import datetime
+from os.path import getmtime
 
 class Difficulty(Enum):
     Easy = "Easy"
@@ -15,20 +16,22 @@ class Problem:
     url: str
     difficulty: Difficulty
     src: str
+    modified_time: float
 
-    def __init__(self, number, title, url, difficulty, src):
+    def __init__(self, number, title, url, difficulty, src, modified_time):
         self.number = number
         self.title = title
         self.url = url
         self.difficulty = difficulty.upper()
         self.src = f"{src}"
+        self.modified_time = datetime.fromtimestamp(int(modified_time))
     
     def __repr__(self):
         return f"<Problem number={self.number} title={self.title} url={self.url} diff={self.difficulty} src={self.src}>"
 
     @property
     def table_line(self):
-        return f"| {self.number} | [{self.title}]({self.src}) |[{self.url}]({self.url})| {self.difficulty} |"
+        return f"| {self.number} | {self.title} | [SOLUTION]({self.src}) [LEETCODE]({self.url})|{self.modified_time.strftime('%d %B, %Y')} | {self.difficulty} |"
 
 paths = Path("./").glob("**/**/*.rs")
 
@@ -53,14 +56,15 @@ for path in paths:
                 difficulty = line[15:].strip()
 
         if number is not None:
-            problems.append(Problem(number, title, url, difficulty, path))
+
+            problems.append(Problem(number, title, url, difficulty, path, getmtime(path)))
 
 problems = sorted(problems, key=lambda i: i.number)
 
 def table(problems):
     header = [
-        '| ID   | Title                           | Leetcode | Difficulty |',
-        '| ---- | --------------------------------|------- | ---------- |'
+        '| ID   | Title                           | LINK | Time | Difficulty |',
+        '| ---- | --------------------------------|------- |------- | ---------- |'
     ]
 
     ret = []
@@ -76,6 +80,7 @@ with open("./generator/readme.template") as file:
 
     content = content.replace(r"{time}", now.strftime("%Y-%m-%d %H:%M:%S"))
     content = content.replace(r"{problems}", table(problems))
+    content = content.replace(r"{count}", str(len(problems)))
 
     with open("./readme.md", mode="w") as readme:
         readme.write(content)
