@@ -1,9 +1,11 @@
 # Leetcode.rs
 
 readme is updated by readme generator automatically and periodically.
+
 Problems Counts: 35
-| ID   | Title                           | LINK | Time | Difficulty |
-| ---- | --------------------------------|------- |------- | ---------- |
+
+| ID   | TITLE | LINK | TIME | DIFFICULTY |
+| ---- | ----- | ---- | ---- | ---------- |
 | 1 | Two Sum | [SOLUTION](src/two_sum.rs) [LEETCODE](https://leetcode.com/problems/two-sum)|15 May, 2019 | EASY |
 | 2 | Add Two Numbers | [SOLUTION](src/add_two_number.rs) [LEETCODE](https://leetcode.com/problems/add-two-numbers)|15 May, 2019 | MEDIUM |
 | 3 | Longest Substring Without Repeating Characters | [SOLUTION](src/longest_substring_without_repeating_characters.rs) [LEETCODE](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|15 May, 2019 | MEDIUM |
