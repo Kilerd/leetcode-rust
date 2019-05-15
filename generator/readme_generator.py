@@ -63,8 +63,8 @@ problems = sorted(problems, key=lambda i: i.number)
 
 def table(problems):
     header = [
-        '| ID   | Title                           | LINK | Time | Difficulty |',
-        '| ---- | --------------------------------|------- |------- | ---------- |'
+        '| ID   | TITLE | LINK | TIME | DIFFICULTY |',
+        '| ---- | ----- | ---- | ---- | ---------- |'
     ]
 
     ret = []
