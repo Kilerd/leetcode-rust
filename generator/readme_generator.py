@@ -78,6 +78,7 @@ with open("./generator/readme.template") as file:
 
     content = content.replace(r"{time}", now.strftime("%Y-%m-%d %H:%M:%S"))
     content = content.replace(r"{problems}", table(problems))
+    content = content.replace(r"{count}", str(len(problems)))
 
     with open("./readme.md", mode="w") as readme:
         readme.write(content)
