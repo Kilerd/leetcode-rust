@@ -16,22 +16,20 @@ class Problem:
     url: str
     difficulty: Difficulty
     src: str
-    modified_time: float
 
-    def __init__(self, number, title, url, difficulty, src, modified_time):
+    def __init__(self, number, title, url, difficulty, src):
         self.number = number
         self.title = title
         self.url = url
         self.difficulty = difficulty.upper()
         self.src = f"{src}"
-        self.modified_time = datetime.fromtimestamp(int(modified_time))
-    
+
     def __repr__(self):
         return f"<Problem number={self.number} title={self.title} url={self.url} diff={self.difficulty} src={self.src}>"
 
     @property
     def table_line(self):
-        return f"| {self.number} | {self.title} | [SOLUTION]({self.src}) [LEETCODE]({self.url})|{self.modified_time.strftime('%d %B, %Y')} | {self.difficulty} |"
+        return f"| {self.number} | {self.title} | [SOLUTION]({self.src}) && [LEETCODE]({self.url})| {self.difficulty} |"
 
 paths = Path("./").glob("**/**/*.rs")
 
@@ -57,14 +55,14 @@ for path in paths:
 
         if number is not None:
 
-            problems.append(Problem(number, title, url, difficulty, path, getmtime(path)))
+            problems.append(Problem(number, title, url, difficulty, path))
 
 problems = sorted(problems, key=lambda i: i.number)
 
 def table(problems):
     header = [
-        '| ID   | TITLE | LINK | TIME | DIFFICULTY |',
-        '| ---- | ----- | ---- | ---- | ---------- |'
+        '| ID   | TITLE | LINK | DIFFICULTY |',
+        '| ---- | ----- | ---- | ---------- |'
     ]
 
     ret = []
@@ -80,7 +78,6 @@ with open("./generator/readme.template") as file:
 
     content = content.replace(r"{time}", now.strftime("%Y-%m-%d %H:%M:%S"))
     content = content.replace(r"{problems}", table(problems))
-    content = content.replace(r"{count}", str(len(problems)))
 
     with open("./readme.md", mode="w") as readme:
         readme.write(content)
