@@ -35,6 +35,7 @@ mod two_sum;
 mod unique_email_addresses;
 mod unique_morse_code_words;
 mod valid_parentheses;
+mod valid_sudoku;
 mod zigzag_conversion;
 
 fn main() {
