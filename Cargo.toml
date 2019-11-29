@@ -3,5 +3,3 @@ name = "leetcode"
 version = "0.1.0"
 authors = ["Kilerd Chan <blove694@gmail.com>"]
 edition = "2018"
-
-[workspace]
