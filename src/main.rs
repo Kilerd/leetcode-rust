@@ -22,6 +22,7 @@ mod remove_duplicates_from_sorted_array;
 mod remove_element;
 mod reverse_integer;
 mod robot_return_to_origin;
+mod search_in_rotated_sorted_array;
 mod self_dividing_numbers;
 mod sort_array_by_parity;
 mod sort_array_by_parity_ii;
