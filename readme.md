@@ -2,7 +2,7 @@
 
 readme is updated by readme generator automatically and periodically.
 
-Problems Counts: 35
+Problems Counts: 37
 
 | ID   | TITLE | LINK | DIFFICULTY |
 | ---- | ----- | ---- | ---------- |
@@ -20,9 +20,11 @@ Problems Counts: 35
 | 16 | Remove Duplicates from Sorted Array | [SOLUTION](src/remove_duplicates_from_sorted_array.rs) && [LEETCODE](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)| EASY |
 | 17 | Letter Combinations of a Phone Number | [SOLUTION](src/letter_combinations_of_a_phone_number.rs) && [LEETCODE](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)| MEDIUM |
 | 20 | Valid Parentheses | [SOLUTION](src/valid_parentheses.rs) && [LEETCODE](https://leetcode.com/problems/valid-parentheses/)| EASY |
+| 22 | Generate Parentheses | [SOLUTION](src/generate_parentheses.rs) && [LEETCODE](https://leetcode.com/problems/generate-parentheses/)| MEDIUM |
 | 27 | Remove Element | [SOLUTION](src/remove_element.rs) && [LEETCODE](https://leetcode.com/problems/remove-element/)| EASY |
 | 28 | Implement strStr() | [SOLUTION](src/implement_strstr.rs) && [LEETCODE](https://leetcode.com/problems/implement-strstr/)| EASY |
 | 29 | Divide Two Integers | [SOLUTION](src/divide_two_integers.rs) && [LEETCODE](https://leetcode.com/problems/divide-two-integers/)| MEDIUM |
+| 33 | Search in Rotated Sorted Array | [SOLUTION](src/search_in_rotated_sorted_array.rs) && [LEETCODE](https://leetcode.com/problems/search-in-rotated-sorted-array/)| MEDIUM |
 | 75 | Sort Colors | [SOLUTION](src/sort_colors.rs) && [LEETCODE](https://leetcode.com/problems/sort-colors)| MEDIUM |
 | 292 | Nim Game | [SOLUTION](src/nim_game.rs) && [LEETCODE](https://leetcode.com/problems/nim-game)| EASY |
 | 461 | Hamming Distance | [SOLUTION](src/hamming_distance.rs) && [LEETCODE](https://leetcode.com/problems/hamming-distance)| EASY |
