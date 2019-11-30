@@ -2,7 +2,7 @@
 
 readme is updated by readme generator automatically and periodically.
 
-Problems Counts: 37
+Problems Counts: 38
 
 | ID   | TITLE | LINK | DIFFICULTY |
 | ---- | ----- | ---- | ---------- |
@@ -25,6 +25,7 @@ Problems Counts: 37
 | 28 | Implement strStr() | [SOLUTION](src/implement_strstr.rs) && [LEETCODE](https://leetcode.com/problems/implement-strstr/)| EASY |
 | 29 | Divide Two Integers | [SOLUTION](src/divide_two_integers.rs) && [LEETCODE](https://leetcode.com/problems/divide-two-integers/)| MEDIUM |
 | 33 | Search in Rotated Sorted Array | [SOLUTION](src/search_in_rotated_sorted_array.rs) && [LEETCODE](https://leetcode.com/problems/search-in-rotated-sorted-array/)| MEDIUM |
+| 36 | Valid Sudoku | [SOLUTION](src/valid_sudoku.rs) && [LEETCODE](https://leetcode.com/problems/valid-sudoku/)| MEDIUM |
 | 75 | Sort Colors | [SOLUTION](src/sort_colors.rs) && [LEETCODE](https://leetcode.com/problems/sort-colors)| MEDIUM |
 | 292 | Nim Game | [SOLUTION](src/nim_game.rs) && [LEETCODE](https://leetcode.com/problems/nim-game)| EASY |
 | 461 | Hamming Distance | [SOLUTION](src/hamming_distance.rs) && [LEETCODE](https://leetcode.com/problems/hamming-distance)| EASY |
