@@ -28,6 +28,7 @@ mod sort_array_by_parity;
 mod sort_array_by_parity_ii;
 mod sort_colors;
 mod string_to_integer_atoi;
+mod sudoku_solver;
 mod three_sum;
 mod three_sum_closest;
 mod to_lower_case;
