@@ -38,6 +38,7 @@ mod unique_morse_code_words;
 mod valid_parentheses;
 mod valid_sudoku;
 mod zigzag_conversion;
+mod combination_sum;
 
 fn main() {
     println!("hello leetcode");
