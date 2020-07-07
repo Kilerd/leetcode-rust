@@ -1,3 +1,4 @@
+mod permutations;
 mod add_two_number;
 mod array_partition_i;
 mod big_countries;
