@@ -2,7 +2,7 @@
 
 readme is updated by readme generator automatically and periodically.
 
-Problems Counts: 40
+Problems Counts: 41
 
 | ID   | TITLE | LINK | DIFFICULTY |
 | ---- | ----- | ---- | ---------- |
@@ -28,6 +28,7 @@ Problems Counts: 40
 | 36 | Valid Sudoku | [SOLUTION](src/valid_sudoku.rs) && [LEETCODE](https://leetcode.com/problems/valid-sudoku/)| MEDIUM |
 | 37 | Sudoku Solver | [SOLUTION](src/sudoku_solver.rs) && [LEETCODE](https://leetcode.com/problems/sudoku-solver/)| HARD |
 | 39 | Combination Sum | [SOLUTION](src/combination_sum.rs) && [LEETCODE](https://leetcode.com/problems/combination-sum/)| MEDIUM |
+| 46 | Permutations | [SOLUTION](src/permutations.rs) && [LEETCODE](https://leetcode.com/problems/permutations)| MEDIUM |
 | 75 | Sort Colors | [SOLUTION](src/sort_colors.rs) && [LEETCODE](https://leetcode.com/problems/sort-colors)| MEDIUM |
 | 292 | Nim Game | [SOLUTION](src/nim_game.rs) && [LEETCODE](https://leetcode.com/problems/nim-game)| EASY |
 | 461 | Hamming Distance | [SOLUTION](src/hamming_distance.rs) && [LEETCODE](https://leetcode.com/problems/hamming-distance)| EASY |
