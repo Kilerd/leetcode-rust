@@ -2,7 +2,7 @@
 
 readme is updated by readme generator automatically and periodically.
 
-Problems Counts: 41
+Problems Counts: 43
 
 | ID   | TITLE | LINK | DIFFICULTY |
 | ---- | ----- | ---- | ---------- |
@@ -31,6 +31,7 @@ Problems Counts: 41
 | 46 | Permutations | [SOLUTION](src/permutations.rs) && [LEETCODE](https://leetcode.com/problems/permutations)| MEDIUM |
 | 75 | Sort Colors | [SOLUTION](src/sort_colors.rs) && [LEETCODE](https://leetcode.com/problems/sort-colors)| MEDIUM |
 | 292 | Nim Game | [SOLUTION](src/nim_game.rs) && [LEETCODE](https://leetcode.com/problems/nim-game)| EASY |
+| 405 | Convert a Number to Hexadecimal | [SOLUTION](src/convert_a_number_to_hexadecimal.rs) && [LEETCODE](https://leetcode.com/problems/convert-a-number-to-hexadecimal)| EASY |
 | 461 | Hamming Distance | [SOLUTION](src/hamming_distance.rs) && [LEETCODE](https://leetcode.com/problems/hamming-distance)| EASY |
 | 561 | Array Partition I | [SOLUTION](src/array_partition_i.rs) && [LEETCODE](https://leetcode.com/problems/array-partition-i)| EASY |
 | 595 | Big Countries | [SOLUTION](src/big_countries.rs) && [LEETCODE](https://leetcode.com/problems/big-countries/)| EASY |
@@ -47,3 +48,4 @@ Problems Counts: 41
 | 929 | Unique Email Addresses | [SOLUTION](src/unique_email_addresses.rs) && [LEETCODE](https://leetcode.com/problems/unique-email-addresses)| EASY |
 | 933 | Number of Recent Calls | [SOLUTION](src/number_of_recent_calls.rs) && [LEETCODE](https://leetcode.com/problems/number-of-recent-calls)| EASY |
 | 942 | DI String Match | [SOLUTION](src/di_string_match.rs) && [LEETCODE](https://leetcode.com/problems/di-string-match)| EASY |
+| 1357 | Apply Discount Every n Orders | [SOLUTION](src/apply_discount_every_n_orders.rs) && [LEETCODE](https://leetcode.com/problems/apply-discount-every-n-orders)| MEDIUM |
