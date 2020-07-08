@@ -1,3 +1,4 @@
+mod convert_a_number_to_hexadecimal;
 mod permutations;
 mod add_two_number;
 mod array_partition_i;
