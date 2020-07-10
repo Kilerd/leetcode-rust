@@ -2,7 +2,7 @@
 
 readme is updated by readme generator automatically and periodically.
 
-Problems Counts: 43
+Problems Counts: 47
 
 | ID   | TITLE | LINK | DIFFICULTY |
 | ---- | ----- | ---- | ---------- |
@@ -30,6 +30,10 @@ Problems Counts: 43
 | 39 | Combination Sum | [SOLUTION](src/combination_sum.rs) && [LEETCODE](https://leetcode.com/problems/combination-sum/)| MEDIUM |
 | 46 | Permutations | [SOLUTION](src/permutations.rs) && [LEETCODE](https://leetcode.com/problems/permutations)| MEDIUM |
 | 75 | Sort Colors | [SOLUTION](src/sort_colors.rs) && [LEETCODE](https://leetcode.com/problems/sort-colors)| MEDIUM |
+| 100 | Same Tree | [SOLUTION](src/same_tree.rs) && [LEETCODE](https://leetcode.com/problems/same-tree)| EASY |
+| 102 | Binary Tree Level Order Traversal | [SOLUTION](src/binary_tree_level_order_traversal.rs) && [LEETCODE](https://leetcode.com/problems/binary-tree-level-order-traversal)| MEDIUM |
+| 104 | Maximum Depth of Binary Tree | [SOLUTION](src/maximum_depth_of_binary_tree.rs) && [LEETCODE](https://leetcode.com/problems/maximum-depth-of-binary-tree)| EASY |
+| 226 | Invert Binary Tree | [SOLUTION](src/invert_binary_tree.rs) && [LEETCODE](https://leetcode.com/problems/invert-binary-tree)| EASY |
 | 292 | Nim Game | [SOLUTION](src/nim_game.rs) && [LEETCODE](https://leetcode.com/problems/nim-game)| EASY |
 | 405 | Convert a Number to Hexadecimal | [SOLUTION](src/convert_a_number_to_hexadecimal.rs) && [LEETCODE](https://leetcode.com/problems/convert-a-number-to-hexadecimal)| EASY |
 | 461 | Hamming Distance | [SOLUTION](src/hamming_distance.rs) && [LEETCODE](https://leetcode.com/problems/hamming-distance)| EASY |
