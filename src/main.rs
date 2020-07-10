@@ -1,3 +1,4 @@
+mod maximum_depth_of_binary_tree;
 mod invert_binary_tree;
 mod same_tree;
 mod apply_discount_every_n_orders;
